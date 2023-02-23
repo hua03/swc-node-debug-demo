@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "debug:swc-node": "swc-node app.ts",
-    "debug:ts-node": "ts-node app.ts"
+    "debug:ts-node": "ts-node app.ts",
+    "attach:swc-node": "swc-node --inspect app.ts"
   },
   "keywords": [],
   "author": "",

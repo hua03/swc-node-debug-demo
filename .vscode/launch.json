@@ -2,6 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "address": "127.0.0.1",
+      "localRoot": "${workspaceFolder}",
+      "name": "attach:swc-node",
+      "port": 9229,
+      "remoteRoot": "/9f195966-d91d-419a-bdd7-4aca4cab6379",
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
       "command": "npm run debug:swc-node",
       "name": "debug:swc-node",
       "request": "launch",
